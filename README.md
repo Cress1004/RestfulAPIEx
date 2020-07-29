@@ -9,3 +9,7 @@ https://www.youtube.com/watch?v=vjf774RKrLc&list=WL&index=18&t=0s&fbclid=IwAR1u9
     (Sau moi lan thay doi code, khong can khoi dong lai server thong qua lenh "node app.js")
 3.  Thay doi  noi dung cua phan "scripts" trong file package.json:
     "start": "nodemon app.js"
+4.  Install MongoDB:
+    $ npm install mongoose
+5.  Install dotenv
+    $ npm install dotenv
