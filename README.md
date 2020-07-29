@@ -7,3 +7,5 @@ https://www.youtube.com/watch?v=vjf774RKrLc&list=WL&index=18&t=0s&fbclid=IwAR1u9
 2.  De tao ra nodemon:
     $ npm install express nodemon
     (Sau moi lan thay doi code, khong can khoi dong lai server thong qua lenh "node app.js")
+3.  Thay doi  noi dung cua phan "scripts" trong file package.json:
+    "start": "nodemon app.js"
