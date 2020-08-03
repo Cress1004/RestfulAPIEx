@@ -13,3 +13,5 @@ https://www.youtube.com/watch?v=vjf774RKrLc&list=WL&index=18&t=0s&fbclid=IwAR1u9
     $ npm install mongoose
 5.  Install dotenv
     $ npm install dotenv
+6.  Install body-parser
+    $ npm install body-parser
