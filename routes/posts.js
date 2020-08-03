@@ -40,17 +40,17 @@ router.get('/:postId', async (req, res) => {
 });
 
 // DELETE POST
-router.delete('/:postId', async (req, res) => ){
+router.delete('/:postId', async (req, res) => {
     try{
         const deletePost = await Post.remove({ _id: req.params.postId});
         res.json(deletePost);
     } catch(err) {
         res.json({message : err});
     }
-}
+});
 
 // UPDATE POST
-router.patch('/:postId', async (req, res) => ){
+router.patch('/:postId', async (req, res) => {
     try{
         const updatePost = await Post.update(   { _id: req.params.postId }, 
                                                 { $set: { title: req.body.title } });
@@ -58,6 +58,6 @@ router.patch('/:postId', async (req, res) => ){
     } catch (err) {
         res.json({ message : err});
     }
-}
+})
 
 module.exports = router;
